@@ -3,10 +3,10 @@ import { Router, Request, Response, NextFunction } from "express";
 const router = Router();
 
 router.get(
-  "/hello/:name",
+  "/test/:name",
   (req: Request, res: Response, next: NextFunction) => {
     const { name } = req.params;
-    res.send(`Hello ${name} from express`);
+    res.send(`Hello ${name} from express test`);
   }
 );
 
