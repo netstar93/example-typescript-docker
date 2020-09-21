@@ -8,6 +8,7 @@ services:
     container_name: example-web-server
     volumes:
       - ./src:/home/node/app/src
+      - ./node_modules:/home/node/app/node_modules
       - ./nodemon.json:/home/node/app/nodemon.json
     expose:
       - "8080"
