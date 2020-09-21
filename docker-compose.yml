@@ -14,5 +14,4 @@ services:
       - "8080"
     ports:
       - "8080:8080"
-      - "9229:9229"
     command: npm start
