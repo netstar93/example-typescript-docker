@@ -1,5 +1,5 @@
 import { Router, Request, Response, NextFunction } from "express";
-
+import * as nodemailer from 'nodemailer';
 const router = Router();
 
 router.get(
