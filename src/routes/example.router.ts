@@ -6,7 +6,7 @@ router.get(
   "/test/:name",
   (req: Request, res: Response, next: NextFunction) => {
     const { name } = req.params;
-    res.send(`Hello ${name} with mongoose with email`);
+    res.send(`Hello ${name} with mongoose with email 2`);
   }
 );
 
