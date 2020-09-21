@@ -1,12 +1,12 @@
 import { Router, Request, Response, NextFunction } from "express";
-import * as mongoose from 'cron';
+import * as mongoose from 'winston';
 const router = Router();
 
 router.get(
   "/test/:name",
   (req: Request, res: Response, next: NextFunction) => {
     const { name } = req.params;
-    res.send(`Hello ${name} from ffd11111111`);
+    res.send(`Hello ${name}`);
   }
 );
 
