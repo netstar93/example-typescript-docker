@@ -2,4 +2,4 @@
 echo "**********Building project*****"
 cd example-typescript-docker
 sudo git pull
-echo "*******installing dependencies*****"
+echo "*******installing dependencies****"
