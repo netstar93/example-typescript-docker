@@ -1,5 +1,5 @@
 import { Router, Request, Response, NextFunction } from "express";
-import * as mongoose from 'mongoose';
+import * as mongoose from 'mongqoose';
 const router = Router();
 
 router.get(
